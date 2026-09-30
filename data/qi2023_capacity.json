@@ -1,0 +1,24 @@
+{
+  "source": "Qi et al., Applied Thermal Engineering 227 (2023) 120361",
+  "doi": "10.1016/j.applthermaleng.2023.120361",
+  "locator": "Figure 5(a), page 5; Sections 2.2 and 3.2",
+  "method": "Manual visual reading of experimental markers; rounded. Endpoints from text. The enlarged error-bar illustration around 128 K is NOT a data point.",
+  "temperature_node": "Reference silicon chip thermometer; NOT refrigerant temperature",
+  "capacity_definition": "Additional steady-state electrical heater load in the reference experiment, after its existing parasitic loads",
+  "conditions": {"inlet_pressure_MPa": 11.1, "outlet_pressure_MPa": 0.24, "ambient_K": 295, "insulation": "Three-layer reference insulation, fitted effective emissivity 0.15", "vacuum_pressure_Pa_upper_bound": 0.0001},
+  "domain": "Increasing low-temperature branch only, 88.5 to 153 K; no extrapolation",
+  "approximate_reading_tolerance": {"temperature_K": 1, "capacity_mW": 3, "meaning": "Conservative visual-reading allowance, not a statistical confidence interval; near-vertical low-temperature branch is especially sensitive"},
+  "points": [
+    {"T_K":88.5,"Q_mW":0,"status":"text_no_load"},
+    {"T_K":90,"Q_mW":18,"status":"figure_approximation"},
+    {"T_K":95,"Q_mW":49,"status":"figure_approximation"},
+    {"T_K":100,"Q_mW":63,"status":"figure_approximation"},
+    {"T_K":110,"Q_mW":70,"status":"figure_approximation"},
+    {"T_K":120,"Q_mW":97,"status":"figure_approximation"},
+    {"T_K":130,"Q_mW":122,"status":"figure_approximation"},
+    {"T_K":140,"Q_mW":143,"status":"figure_approximation"},
+    {"T_K":145,"Q_mW":145,"status":"figure_approximation"},
+    {"T_K":150,"Q_mW":146,"status":"figure_approximation"},
+    {"T_K":153,"Q_mW":146.9,"status":"text_peak"}
+  ]
+}

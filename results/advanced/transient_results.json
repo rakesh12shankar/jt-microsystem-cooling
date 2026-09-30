@@ -1,0 +1,158 @@
+{
+  "step_W": [
+    0.01,
+    0.015
+  ],
+  "cases": [
+    {
+      "initial": {
+        "status": "equilibrium",
+        "platform_K": 93.73684959762943,
+        "die_K": 94.12975655896156,
+        "interface_K_W": 21.444444444444446,
+        "loads_W": {
+          "device": 0.01,
+          "leads": 0.007315607713265593,
+          "wire_joule": 6.623290252548739e-06,
+          "supports": 0.018495154006392945,
+          "die_radiation": 0.0009832469206449968,
+          "stage_radiation": 0.004250595643972209,
+          "optical": 1.6608355573219852e-05,
+          "gas": 0.00010063157520118529
+        },
+        "energy_residual_W": -2.2898349882893854e-16
+      },
+      "final": {
+        "status": "equilibrium",
+        "platform_K": 94.5313405379787,
+        "die_K": 95.03095161565102,
+        "interface_K_W": 21.444444444444446,
+        "loads_W": {
+          "device": 0.015,
+          "leads": 0.007291851228871123,
+          "wire_joule": 6.623290252548739e-06,
+          "supports": 0.01844705863398898,
+          "die_radiation": 0.0009828467995318265,
+          "stage_radiation": 0.004249092469930939,
+          "optical": 1.660458316211109e-05,
+          "gas": 0.00010023432973101065
+        },
+        "energy_residual_W": -5.551115123125783e-16
+      },
+      "settling_2percent_s": 32.7,
+      "max_mean_die_K": 95.03095161565038,
+      "overshoot_above_final_K": 0.0,
+      "energy_residual_J": 3.851086116668512e-15,
+      "local_eigenvalues_per_s": [
+        -0.11640400919434946,
+        -12.606252712695621
+      ],
+      "time_constants_s": [
+        0.07932571421425741,
+        8.5907693980745
+      ],
+      "capacity_scale": 0.5
+    },
+    {
+      "initial": {
+        "status": "equilibrium",
+        "platform_K": 93.73684959762943,
+        "die_K": 94.12975655896156,
+        "interface_K_W": 21.444444444444446,
+        "loads_W": {
+          "device": 0.01,
+          "leads": 0.007315607713265593,
+          "wire_joule": 6.623290252548739e-06,
+          "supports": 0.018495154006392945,
+          "die_radiation": 0.0009832469206449968,
+          "stage_radiation": 0.004250595643972209,
+          "optical": 1.6608355573219852e-05,
+          "gas": 0.00010063157520118529
+        },
+        "energy_residual_W": -2.2898349882893854e-16
+      },
+      "final": {
+        "status": "equilibrium",
+        "platform_K": 94.5313405379787,
+        "die_K": 95.03095161565102,
+        "interface_K_W": 21.444444444444446,
+        "loads_W": {
+          "device": 0.015,
+          "leads": 0.007291851228871123,
+          "wire_joule": 6.623290252548739e-06,
+          "supports": 0.01844705863398898,
+          "die_radiation": 0.0009828467995318265,
+          "stage_radiation": 0.004249092469930939,
+          "optical": 1.660458316211109e-05,
+          "gas": 0.00010023432973101065
+        },
+        "energy_residual_W": -5.551115123125783e-16
+      },
+      "settling_2percent_s": 65.4,
+      "max_mean_die_K": 95.0309509209382,
+      "overshoot_above_final_K": 0.0,
+      "energy_residual_J": 1.3433698597964394e-14,
+      "local_eigenvalues_per_s": [
+        -0.058202004597175616,
+        -6.303126356347811
+      ],
+      "time_constants_s": [
+        0.15865142842851482,
+        17.181538796148736
+      ],
+      "capacity_scale": 1
+    },
+    {
+      "initial": {
+        "status": "equilibrium",
+        "platform_K": 93.73684959762943,
+        "die_K": 94.12975655896156,
+        "interface_K_W": 21.444444444444446,
+        "loads_W": {
+          "device": 0.01,
+          "leads": 0.007315607713265593,
+          "wire_joule": 6.623290252548739e-06,
+          "supports": 0.018495154006392945,
+          "die_radiation": 0.0009832469206449968,
+          "stage_radiation": 0.004250595643972209,
+          "optical": 1.6608355573219852e-05,
+          "gas": 0.00010063157520118529
+        },
+        "energy_residual_W": -2.2898349882893854e-16
+      },
+      "final": {
+        "status": "equilibrium",
+        "platform_K": 94.5313405379787,
+        "die_K": 95.03095161565102,
+        "interface_K_W": 21.444444444444446,
+        "loads_W": {
+          "device": 0.015,
+          "leads": 0.007291851228871123,
+          "wire_joule": 6.623290252548739e-06,
+          "supports": 0.01844705863398898,
+          "die_radiation": 0.0009828467995318265,
+          "stage_radiation": 0.004249092469930939,
+          "optical": 1.660458316211109e-05,
+          "gas": 0.00010023432973101065
+        },
+        "energy_residual_W": -5.551115123125783e-16
+      },
+      "settling_2percent_s": 130.75,
+      "max_mean_die_K": 95.03020168258662,
+      "overshoot_above_final_K": 0.0,
+      "energy_residual_J": 3.069766663088558e-14,
+      "local_eigenvalues_per_s": [
+        -0.029101002298587364,
+        -3.1515631781739053
+      ],
+      "time_constants_s": [
+        0.31730285685702964,
+        34.363077592298
+      ],
+      "capacity_scale": 2
+    }
+  ],
+  "tolerance_check_max_difference_K": 1.0862163435376715e-07,
+  "steady_final_peak_K": 95.3238317783279,
+  "status": "Conditional local passive transient. Quasi-steady cooler capacity; assumed heat capacities. No physical transient validation or startup prediction."
+}

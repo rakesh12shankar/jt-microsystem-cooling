@@ -1,0 +1,19 @@
+{
+  "retrieved": "2026-09-30",
+  "equation": "k(T) = 10**sum(a[i]*log10(T)**i), W/(m K)",
+  "materials": {
+    "ss304": {
+      "coefficients": [-1.4087,1.3982,0.2543,-0.6260,0.2334,0.4256,-0.4658,0.1650,-0.0199],
+      "range_K": [4,300],
+      "fit_error_percent": 2,
+      "url": "https://trc.nist.gov/cryogenics/materials/304Stainless/304Stainless_rev.htm"
+    },
+    "g10_warp": {
+      "coefficients": [-2.64827,8.80228,-24.8998,41.1625,-39.8754,23.1778,-7.95635,1.48806,-0.11701],
+      "range_K": [12,300],
+      "fit_error_percent": 5,
+      "url": "https://trc.nist.gov/cryogenics/materials/G-10%20CR%20Fiberglass%20Epoxy/G10CRFiberglassEpoxy_rev.htm"
+    }
+  },
+  "scope": "Legacy primary material-property fits supporting recent-paper case studies. Fit error is not total material uncertainty. G10 heat flow follows the warp direction; no isotropy assumption. Supplied NIST BeCu fit was rejected because it does not cover a 295 K warm end."
+}

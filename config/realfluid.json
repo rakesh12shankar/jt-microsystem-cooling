@@ -1,0 +1,17 @@
+{
+  "fluid": "Nitrogen",
+  "ambient_K": 295,
+  "high_pressure_Pa": 11100000,
+  "outlet_pressure_Pa": 240000,
+  "high_drop_Pa": 50000,
+  "low_drop_Pa": 45000,
+  "mass_flow_kg_s": 0.0000042,
+  "effectiveness": 0.995,
+  "hx_radiation_area_m2": 0.000798,
+  "reference_cold_area_m2": 0.0001805,
+  "reference_emissivity": 0.15,
+  "reference_axial_W_K": 0.000005,
+  "fluid_to_platform_K_W": 100,
+  "pinch_nodes": 81,
+  "source_note": "Qi 2023: ambient and boundary pressures; 4.2 mg/s measured after cooldown; low drop 45 kPa is the authors' model estimate at that condition. 42 mm x 9.5 mm and 9.5 mm square give two-face areas. Emissivity 0.15 is the authors' fitted effective insulation value. High-side drop 50 kPa, axial conductance 5 microW/K, platform resistance 100 K/W, effectiveness 0.995 and linear-wall radiation profile are project assumptions. Effectiveness is defined here as fraction of pinch-limited maximum transfer, not Qi's Eq. A2. Flow is prescribed, NOT solved from restriction."
+}

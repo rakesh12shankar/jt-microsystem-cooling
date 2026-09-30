@@ -1,0 +1,69 @@
+{
+  "source": "Pei 2026 supplementary PDF, pp4-5, Tables S1/S2",
+  "inputs": {
+    "ambient_K": 295.0,
+    "cold_K": 130.0,
+    "measured_flow_mg_s": 16.5,
+    "inlet_MPa": 7,
+    "outlet_MPa_adopted_from_prior_work": 0.285,
+    "sigma_W_m2_K4": 5.670374419e-08,
+    "Si_area_m2": 0.000109,
+    "glass_area_m2": 0.000133,
+    "window_area_m2": 0.000201,
+    "Si_emissivity": 0.25,
+    "glass_emissivity": 0.785,
+    "window_emissivity": 0.85,
+    "view_factor": 0.5,
+    "MLI_emissivity": 0.15,
+    "MLI_perimeter_m": 0.038,
+    "HX_length_m": 0.041,
+    "Cu_area_m2": 5.4e-09,
+    "lead_length_m": 0.062,
+    "integrated_Cu_k_W_m": 68700.0,
+    "lead_count": 6
+  },
+  "comparison": [
+    {
+      "term": "Ideal gross",
+      "reproduced_mW": 234.04881675691294,
+      "reported_approx_mW": 234
+    },
+    {
+      "term": "Cold-head radiation",
+      "reproduced_mW": 57.61446967920575,
+      "reported_approx_mW": 58
+    },
+    {
+      "term": "CFHX radiation",
+      "reproduced_mW": 65.0697733118733,
+      "reported_approx_mW": 65
+    },
+    {
+      "term": "Six copper leads",
+      "reproduced_mW": 35.90129032258064,
+      "reported_approx_mW": 36
+    }
+  ],
+  "parasitic_interval_mW": [
+    158.5855333136597,
+    160.5855333136597
+  ],
+  "residual_exhaust_interval_mW": [
+    68.16328344325323,
+    70.16328344325323
+  ],
+  "residual_effectiveness_interval": [
+    0.7002194481669779,
+    0.7087646740207674
+  ],
+  "eight_leads_mW": 47.8683870967742,
+  "eight_leads_with_50percent_shield_increment_mW": 71.80258064516129,
+  "purge_arithmetic": {
+    "replacement_47min_8p3mg_s_g": 23.406,
+    "long_exposure_23h_0p5mg_s_g": 41.4,
+    "installation_14h_0p7mg_s_g": 35.28,
+    "remaining54g_at12mg_s_total_min": 75.0,
+    "remaining54g_at12mg_s_stable_after30min_cooldown_min": 45.0
+  },
+  "interpretation": "Reproduction of published estimates. Net heater power enters the exhaust residual, so agreement does not independently validate predicted net capacity or exchanger effectiveness."
+}

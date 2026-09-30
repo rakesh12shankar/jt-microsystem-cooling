@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "sources": [
+    {
+      "filename": "1-s2.0-S1359431123003903-main.pdf",
+      "sha256": "0ff403f57528d496b5325a0650ea64621a93e21362209db1261f73025776fcf8"
+    },
+    {
+      "filename": "1-s2.0-S0011227524001498-main.pdf",
+      "sha256": "a442b5782ebc0ee4cdae3eaf20a8ea655638a1d6ea035f989cde7e2fe62b90ae"
+    }
+  ]
+}

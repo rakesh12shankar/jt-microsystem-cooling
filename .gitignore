@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+tmp/
+papers/
+*.pdf
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+~$*
+.DS_Store
+Thumbs.db
+dist/

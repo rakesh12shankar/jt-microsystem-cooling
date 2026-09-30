@@ -1,0 +1,175 @@
+{
+  "training_K": [
+    100,
+    120,
+    140
+  ],
+  "heldout_K": [
+    90,
+    95,
+    110,
+    130,
+    153
+  ],
+  "fitted_area_multiplier": 0.4822142238862672,
+  "bounds": [
+    0.2,
+    1.2
+  ],
+  "fit_parameters": 1,
+  "fixed_parameters": "All remaining Cycle.load defaults; measured mass flow at each point.",
+  "comparisons": [
+    {
+      "T_K": 90,
+      "Q_mW": 18.2,
+      "flow_mg_s": 4.18,
+      "capacity_pixel": [
+        98,
+        485
+      ],
+      "flow_pixel": [
+        852,
+        310
+      ],
+      "split": "holdout",
+      "baseline_mW": 14.04413409604352,
+      "corrected_mW": 20.01228201123356,
+      "corrected_error_mW": 1.8122820112335596
+    },
+    {
+      "T_K": 95,
+      "Q_mW": 48.6,
+      "flow_mg_s": 4.35,
+      "capacity_pixel": [
+        113,
+        390
+      ],
+      "flow_pixel": [
+        868,
+        301
+      ],
+      "split": "holdout",
+      "baseline_mW": 40.05426224236392,
+      "corrected_mW": 64.78845479891235,
+      "corrected_error_mW": 16.188454798912353
+    },
+    {
+      "T_K": 100,
+      "Q_mW": 63.0,
+      "flow_mg_s": 4.41,
+      "capacity_pixel": [
+        126,
+        345
+      ],
+      "flow_pixel": [
+        881,
+        298
+      ],
+      "split": "train",
+      "baseline_mW": 41.8037895468185,
+      "corrected_mW": 66.34564473338692,
+      "corrected_error_mW": 3.3456447333869193
+    },
+    {
+      "T_K": 110,
+      "Q_mW": 69.8,
+      "flow_mg_s": 4.68,
+      "capacity_pixel": [
+        153,
+        324
+      ],
+      "flow_pixel": [
+        909,
+        283
+      ],
+      "split": "holdout",
+      "baseline_mW": 48.412649763522886,
+      "corrected_mW": 72.55004405433905,
+      "corrected_error_mW": 2.7500440543390567
+    },
+    {
+      "T_K": 120,
+      "Q_mW": 97.0,
+      "flow_mg_s": 5.81,
+      "capacity_pixel": [
+        180,
+        239
+      ],
+      "flow_pixel": [
+        936,
+        220
+      ],
+      "split": "train",
+      "baseline_mW": 72.63788542651189,
+      "corrected_mW": 96.39716001357976,
+      "corrected_error_mW": -0.6028399864202356
+    },
+    {
+      "T_K": 130,
+      "Q_mW": 121.9,
+      "flow_mg_s": 6.93,
+      "capacity_pixel": [
+        207,
+        161
+      ],
+      "flow_pixel": [
+        963,
+        158
+      ],
+      "split": "holdout",
+      "baseline_mW": 96.81632469505489,
+      "corrected_mW": 120.16292862068818,
+      "corrected_error_mW": -1.7370713793118284
+    },
+    {
+      "T_K": 140,
+      "Q_mW": 142.7,
+      "flow_mg_s": 7.84,
+      "capacity_pixel": [
+        234,
+        96
+      ],
+      "flow_pixel": [
+        990,
+        108
+      ],
+      "split": "train",
+      "baseline_mW": 116.87423765495707,
+      "corrected_mW": 139.75158679134418,
+      "corrected_error_mW": -2.9484132086558077
+    },
+    {
+      "T_K": 153,
+      "Q_mW": 146.9,
+      "flow_mg_s": 7.94,
+      "note": "Peak capacity and temperature from section 3.2; flow interpolated visually within merged peak cluster.",
+      "split": "holdout",
+      "baseline_mW": 121.0625773584622,
+      "corrected_mW": 143.15248736125125,
+      "corrected_error_mW": -3.747512638748759
+    }
+  ],
+  "metrics": {
+    "train": {
+      "RMSE_mW": 2.598069487154056,
+      "MAE_mW": 2.298965976154321
+    },
+    "holdout": {
+      "RMSE_mW": 7.6154375464562865,
+      "MAE_mW": 5.247072976509111
+    }
+  },
+  "decision": "Empirical correction assessed on same-experiment holdout. Independent validation remains open; never substitute this fit for measured package capacity.",
+  "external_evidence": [
+    {
+      "source": "Pei et al. RSI 95,085118 (2024)",
+      "doi": "10.1063/5.0214551",
+      "status": "Supplied full text read: active PID compensation; incident optical load and missing absorbed fraction prevent comparison with passive electrical step. See 06_external_evidence.md."
+    },
+    {
+      "source": "Derking et al. RSI 83,045117 (2012)",
+      "doi": "10.1063/1.4705988",
+      "status": "Legacy author-repository abstract: nitrogen 143 mW at 100 K, radiation40+detector50+wire53=143 mW. This checks bookkeeping only, not our geometry or reference cooler."
+    }
+  ]
+}

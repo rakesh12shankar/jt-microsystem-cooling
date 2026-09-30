@@ -1,0 +1,8 @@
+{
+  "minimum_whole_device_entropy_generation_W_K": 0.007296645601428855,
+  "maximum_hx_global_energy_residual_W": 5.651792544386636e-08,
+  "maximum_bond_FE_energy_residual_per_W": 8.01581023779363e-13,
+  "hx_central_128_to256_capacity_difference_mW": 0.4612337386463716,
+  "hx_corner_max_128_to256_difference_mW": 1.0671265845991798,
+  "bond_level8_to12_power_difference_mW": 0.0036272373539034675
+}

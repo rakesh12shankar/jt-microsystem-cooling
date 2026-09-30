@@ -1,0 +1,15 @@
+{
+  "ambient_K": 295,
+  "target_K": 100,
+  "device_power_W": 0.01,
+  "interface_K_per_W": 50,
+  "support_W_per_K": 0.00005,
+  "lead_W_per_K": 0.00002,
+  "stage_area_m2": 0.0001,
+  "stage_emissivity": 0.05,
+  "device_area_m2": 0.000009,
+  "device_emissivity": 0.2,
+  "gas_W_per_K": 0,
+  "optical_W": 0,
+  "assumption_note": "All package values except ambient and target are illustrative design assumptions. Conductances are effective averages, not assigned material properties. Areas are extra effective radiating areas beyond the reference experiment. Gas and optical loads are initially zero, then varied separately. Existing reference supports, radiation, glue and fluid connections remain embedded in the capacity map."
+}

@@ -1,0 +1,453 @@
+{
+  "status": "Conditional package tradeoff study completed; no integrated-package experimental validation.",
+  "capacity": "Qi experimental net capacity, original increasing 88.5\u2013153 K map; fixed pressure/ambient/reference package.",
+  "architectures": [
+    {
+      "name": "A: steel supports",
+      "inputs": {
+        "ambient_K": 295,
+        "target_K": 100,
+        "device_power_W": 0.01,
+        "support_count": 4,
+        "support_width_m": 0.0003,
+        "lead_count": 8,
+        "lead_diameter_m": 2.5e-05,
+        "lead_material": "ss304",
+        "lead_current_A": 0.0001,
+        "lead_resistivity_ohm_m": 7.2e-07,
+        "max_lead_resistance_ohm": 20,
+        "stage_area_m2": 0.0001,
+        "stage_emissivity": 0.05,
+        "die_area_m2": 9e-06,
+        "die_emissivity": 0.2,
+        "aperture_diameter_m": 0.001,
+        "optical_gray_factor": 0.5,
+        "gas_conductance_W_K": 5e-07,
+        "payload_mass_kg": 5e-06,
+        "acceleration_m_s2": 98.0665,
+        "max_deflection_m": 1e-05,
+        "screen_stress_limit_Pa": 50000000,
+        "name": "A: steel supports",
+        "support_material": "ss304",
+        "support_length_m": 0.002,
+        "support_thickness_m": 0.0001,
+        "young_modulus_Pa": 190000000000,
+        "lead_length_m": 0.01,
+        "interface_K_W": 50
+      },
+      "at_10mW": {
+        "status": "equilibrium",
+        "platform_K": 137.2387660798632,
+        "detector_K": 137.8207227945304,
+        "loads_W": {
+          "device": 0.01,
+          "supports": 0.12343678192439442,
+          "leads": 0.0008054352223301485,
+          "lead_joule": 1.173417564427926e-06,
+          "stage_radiation": 0.0020466119330138865,
+          "die_radiation": 0.0006719199666854628,
+          "optical": 0.0001606056867642099,
+          "gas": 7.888061696006839e-05
+        },
+        "energy_residual_W": 1.3877787807814457e-16,
+        "interface_residual_K": -1.2434497875801753e-14,
+        "meets_target": false
+      },
+      "constraints": {
+        "deflection_um": 0.06881859649122808,
+        "stress_MPa": 0.4903325000000001,
+        "lead_resistance_ohm": 14.667719555349075,
+        "stiffness_N_m": 7125.0,
+        "mechanical_pass": true,
+        "electrical_pass": true,
+        "combined_pass": true
+      },
+      "max_device_power_W": {
+        "lower": null,
+        "nominal": null,
+        "upper": null
+      },
+      "adverse_max_device_power_W": null,
+      "adverse_constraints": {
+        "deflection_um": 0.0983122807017544,
+        "stress_MPa": 0.4903325000000001,
+        "lead_resistance_ohm": 17.60126346641889,
+        "stiffness_N_m": 4987.5,
+        "mechanical_pass": true,
+        "electrical_pass": true,
+        "combined_pass": true
+      }
+    },
+    {
+      "name": "B: G10 compact",
+      "inputs": {
+        "ambient_K": 295,
+        "target_K": 100,
+        "device_power_W": 0.01,
+        "support_count": 4,
+        "support_width_m": 0.0003,
+        "lead_count": 8,
+        "lead_diameter_m": 2.5e-05,
+        "lead_material": "ss304",
+        "lead_current_A": 0.0001,
+        "lead_resistivity_ohm_m": 7.2e-07,
+        "max_lead_resistance_ohm": 20,
+        "stage_area_m2": 0.0001,
+        "stage_emissivity": 0.05,
+        "die_area_m2": 9e-06,
+        "die_emissivity": 0.2,
+        "aperture_diameter_m": 0.001,
+        "optical_gray_factor": 0.5,
+        "gas_conductance_W_K": 5e-07,
+        "payload_mass_kg": 5e-06,
+        "acceleration_m_s2": 98.0665,
+        "max_deflection_m": 1e-05,
+        "screen_stress_limit_Pa": 50000000,
+        "name": "B: G10 compact",
+        "support_material": "g10_warp",
+        "support_length_m": 0.002,
+        "support_thickness_m": 0.0001,
+        "young_modulus_Pa": 20000000000,
+        "lead_length_m": 0.01,
+        "interface_K_W": 50
+      },
+      "at_10mW": {
+        "status": "equilibrium",
+        "platform_K": 90.65941132290635,
+        "detector_K": 91.25204917920892,
+        "loads_W": {
+          "device": 0.01,
+          "supports": 0.0080053889452646,
+          "leads": 0.000985416193574864,
+          "lead_joule": 1.173417564427926e-06,
+          "stage_radiation": 0.0021280338363646447,
+          "die_radiation": 0.0006990718488400302,
+          "optical": 0.00016709566607214216,
+          "gas": 0.00010217029433854681
+        },
+        "energy_residual_W": 1.249000902703301e-16,
+        "interface_residual_K": 3.3306690738754696e-16,
+        "meets_target": true
+      },
+      "constraints": {
+        "deflection_um": 0.6537766666666667,
+        "stress_MPa": 0.4903325000000001,
+        "lead_resistance_ohm": 14.667719555349075,
+        "stiffness_N_m": 750.0000000000001,
+        "mechanical_pass": true,
+        "electrical_pass": true,
+        "combined_pass": true
+      },
+      "max_device_power_W": {
+        "lower": 0.038957714969384175,
+        "nominal": 0.04463493225133513,
+        "upper": 0.05031216286608705
+      },
+      "adverse_max_device_power_W": 0.029159273687592014,
+      "adverse_constraints": {
+        "deflection_um": 0.9339666666666667,
+        "stress_MPa": 0.4903325000000001,
+        "lead_resistance_ohm": 17.60126346641889,
+        "stiffness_N_m": 525.0,
+        "mechanical_pass": true,
+        "electrical_pass": true,
+        "combined_pass": true
+      }
+    },
+    {
+      "name": "C: G10 long thin",
+      "inputs": {
+        "ambient_K": 295,
+        "target_K": 100,
+        "device_power_W": 0.01,
+        "support_count": 4,
+        "support_width_m": 0.0003,
+        "lead_count": 8,
+        "lead_diameter_m": 2.5e-05,
+        "lead_material": "ss304",
+        "lead_current_A": 0.0001,
+        "lead_resistivity_ohm_m": 7.2e-07,
+        "max_lead_resistance_ohm": 20,
+        "stage_area_m2": 0.0001,
+        "stage_emissivity": 0.05,
+        "die_area_m2": 9e-06,
+        "die_emissivity": 0.2,
+        "aperture_diameter_m": 0.001,
+        "optical_gray_factor": 0.5,
+        "gas_conductance_W_K": 5e-07,
+        "payload_mass_kg": 5e-06,
+        "acceleration_m_s2": 98.0665,
+        "max_deflection_m": 1e-05,
+        "screen_stress_limit_Pa": 50000000,
+        "name": "C: G10 long thin",
+        "support_material": "g10_warp",
+        "support_length_m": 0.003,
+        "support_thickness_m": 0.0001,
+        "young_modulus_Pa": 20000000000,
+        "lead_length_m": 0.02,
+        "interface_K_W": 20
+      },
+      "at_10mW": {
+        "status": "equilibrium",
+        "platform_K": 90.15151899118925,
+        "detector_K": 90.37877948528671,
+        "loads_W": {
+          "device": 0.01,
+          "supports": 0.0053455093643657615,
+          "leads": 0.0004942083558678731,
+          "lead_joule": 2.346835128855852e-06,
+          "stage_radiation": 0.0021284594356303695,
+          "die_radiation": 0.0006993155880366731,
+          "optical": 0.00016715392583968754,
+          "gas": 0.00010242424050440537
+        },
+        "energy_residual_W": -2.8102520310824275e-16,
+        "interface_residual_K": 2.7200464103316335e-15,
+        "meets_target": true
+      },
+      "constraints": {
+        "deflection_um": 2.2064962500000003,
+        "stress_MPa": 0.7354987500000001,
+        "lead_resistance_ohm": 29.33543911069815,
+        "stiffness_N_m": 222.22222222222226,
+        "mechanical_pass": true,
+        "electrical_pass": false,
+        "combined_pass": false
+      },
+      "max_device_power_W": {
+        "lower": 0.04516473084519867,
+        "nominal": 0.05129883986316394,
+        "upper": 0.05738223765151013
+      },
+      "adverse_max_device_power_W": 0.03737825891288503,
+      "adverse_constraints": {
+        "deflection_um": 3.1521375,
+        "stress_MPa": 0.7354987500000001,
+        "lead_resistance_ohm": 35.20252693283778,
+        "stiffness_N_m": 155.55555555555557,
+        "mechanical_pass": true,
+        "electrical_pass": false,
+        "combined_pass": false
+      }
+    },
+    {
+      "name": "D: G10 long reinforced",
+      "inputs": {
+        "ambient_K": 295,
+        "target_K": 100,
+        "device_power_W": 0.01,
+        "support_count": 4,
+        "support_width_m": 0.0003,
+        "lead_count": 8,
+        "lead_diameter_m": 2.5e-05,
+        "lead_material": "ss304",
+        "lead_current_A": 0.0001,
+        "lead_resistivity_ohm_m": 7.2e-07,
+        "max_lead_resistance_ohm": 20,
+        "stage_area_m2": 0.0001,
+        "stage_emissivity": 0.05,
+        "die_area_m2": 9e-06,
+        "die_emissivity": 0.2,
+        "aperture_diameter_m": 0.001,
+        "optical_gray_factor": 0.5,
+        "gas_conductance_W_K": 5e-07,
+        "payload_mass_kg": 5e-06,
+        "acceleration_m_s2": 98.0665,
+        "max_deflection_m": 1e-05,
+        "screen_stress_limit_Pa": 50000000,
+        "name": "D: G10 long reinforced",
+        "support_material": "g10_warp",
+        "support_length_m": 0.003,
+        "support_thickness_m": 0.00015,
+        "young_modulus_Pa": 20000000000,
+        "lead_length_m": 0.01,
+        "interface_K_W": 20
+      },
+      "at_10mW": {
+        "status": "equilibrium",
+        "platform_K": 90.65962762275244,
+        "detector_K": 90.8967097021135,
+        "loads_W": {
+          "device": 0.01,
+          "supports": 0.008005383453242835,
+          "leads": 0.000986639098258662,
+          "lead_joule": 1.173417564427926e-06,
+          "stage_radiation": 0.0021280336535806433,
+          "die_radiation": 0.0006991718769390836,
+          "optical": 0.00016711957529100857,
+          "gas": 0.00010217018618862377
+        },
+        "energy_residual_W": -1.6306400674181987e-16,
+        "interface_residual_K": -4.579669976578771e-15,
+        "meets_target": true
+      },
+      "constraints": {
+        "deflection_um": 0.6537766666666671,
+        "stress_MPa": 0.32688833333333345,
+        "lead_resistance_ohm": 14.667719555349075,
+        "stiffness_N_m": 749.9999999999997,
+        "mechanical_pass": true,
+        "electrical_pass": true,
+        "combined_pass": true
+      },
+      "max_device_power_W": {
+        "lower": 0.04223220269572715,
+        "nominal": 0.04836527686053282,
+        "upper": 0.05434587378942732
+      },
+      "adverse_max_device_power_W": 0.03405205881681761,
+      "adverse_constraints": {
+        "deflection_um": 0.9339666666666672,
+        "stress_MPa": 0.32688833333333345,
+        "lead_resistance_ohm": 17.60126346641889,
+        "stiffness_N_m": 524.9999999999998,
+        "mechanical_pass": true,
+        "electrical_pass": true,
+        "combined_pass": true
+      }
+    }
+  ],
+  "sensitivity": [
+    {
+      "scenario": "B baseline",
+      "max_power_W": 0.04463493225133513,
+      "constraints": {
+        "deflection_um": 0.6537766666666667,
+        "stress_MPa": 0.4903325000000001,
+        "lead_resistance_ohm": 14.667719555349075,
+        "stiffness_N_m": 750.0000000000001,
+        "mechanical_pass": true,
+        "electrical_pass": true,
+        "combined_pass": true
+      }
+    },
+    {
+      "scenario": "interface 20 K/W",
+      "max_power_W": 0.04836527686053282,
+      "constraints": {
+        "deflection_um": 0.6537766666666667,
+        "stress_MPa": 0.4903325000000001,
+        "lead_resistance_ohm": 14.667719555349075,
+        "stiffness_N_m": 750.0000000000001,
+        "mechanical_pass": true,
+        "electrical_pass": true,
+        "combined_pass": true
+      }
+    },
+    {
+      "scenario": "interface 100 K/W",
+      "max_power_W": 0.039514662401344595,
+      "constraints": {
+        "deflection_um": 0.6537766666666667,
+        "stress_MPa": 0.4903325000000001,
+        "lead_resistance_ohm": 14.667719555349075,
+        "stiffness_N_m": 750.0000000000001,
+        "mechanical_pass": true,
+        "electrical_pass": true,
+        "combined_pass": true
+      }
+    },
+    {
+      "scenario": "16 leads",
+      "max_power_W": 0.043679269102673474,
+      "constraints": {
+        "deflection_um": 0.6537766666666667,
+        "stress_MPa": 0.4903325000000001,
+        "lead_resistance_ohm": 14.667719555349075,
+        "stiffness_N_m": 750.0000000000001,
+        "mechanical_pass": true,
+        "electrical_pass": true,
+        "combined_pass": true
+      }
+    },
+    {
+      "scenario": "50 um leads",
+      "max_power_W": 0.04177234312121847,
+      "constraints": {
+        "deflection_um": 0.6537766666666667,
+        "stress_MPa": 0.4903325000000001,
+        "lead_resistance_ohm": 3.666929888837269,
+        "stiffness_N_m": 750.0000000000001,
+        "mechanical_pass": true,
+        "electrical_pass": true,
+        "combined_pass": true
+      }
+    },
+    {
+      "scenario": "stage emissivity 0.2",
+      "max_power_W": 0.03906000290292676,
+      "constraints": {
+        "deflection_um": 0.6537766666666667,
+        "stress_MPa": 0.4903325000000001,
+        "lead_resistance_ohm": 14.667719555349075,
+        "stiffness_N_m": 750.0000000000001,
+        "mechanical_pass": true,
+        "electrical_pass": true,
+        "combined_pass": true
+      }
+    },
+    {
+      "scenario": "gas G = 20 uW/K",
+      "max_power_W": 0.041266704326990096,
+      "constraints": {
+        "deflection_um": 0.6537766666666667,
+        "stress_MPa": 0.4903325000000001,
+        "lead_resistance_ohm": 14.667719555349075,
+        "stiffness_N_m": 750.0000000000001,
+        "mechanical_pass": true,
+        "electrical_pass": true,
+        "combined_pass": true
+      }
+    },
+    {
+      "scenario": "aperture diameter 2 mm",
+      "max_power_W": 0.04433538903697921,
+      "constraints": {
+        "deflection_um": 0.6537766666666667,
+        "stress_MPa": 0.4903325000000001,
+        "lead_resistance_ohm": 14.667719555349075,
+        "stiffness_N_m": 750.0000000000001,
+        "mechanical_pass": true,
+        "electrical_pass": true,
+        "combined_pass": true
+      }
+    },
+    {
+      "scenario": "lead current 10 mA",
+      "max_power_W": 0.032901930024619164,
+      "constraints": {
+        "deflection_um": 0.6537766666666667,
+        "stress_MPa": 0.4903325000000001,
+        "lead_resistance_ohm": 14.667719555349075,
+        "stiffness_N_m": 750.0000000000001,
+        "mechanical_pass": true,
+        "electrical_pass": true,
+        "combined_pass": true
+      }
+    }
+  ],
+  "assumptions": [
+    "All geometry, payload, acceleration, interface, optical, vacuum and acceptance limits are project design assumptions, not dimensions demonstrated in Qi or Tong.",
+    "Young modulus values are screening assumptions; G10 modulus is swept \u00b130%. Neither is an allowable or a temperature-dependent mechanical model.",
+    "Lead resistivity is an assumed constant swept \u00b120%, not a sourced cryogenic electrical fit. Stainless leads represent a low-current thermal candidate; bonding, signal integrity and detector pin count require validation.",
+    "Conservative electrical heating: all I^2R from eight leads deposited at detector; actual partition is unresolved.",
+    "Four equal-load cantilevers under out-of-plane acceleration are a preliminary screen; no buckling, resonances, joint failure, cooldown mismatch, in-plane restraint or vacuum qualification is predicted.",
+    "Extra gas conductance is an effective parameter; no chamber-pressure specification is inferred. Optical gray factor combines transmission, absorptance and view factor; spectral detector loading is not resolved.",
+    "All paths are additional to the measured reference chip/cooler assembly. Aperture area is removed from opaque die radiation to avoid duplicate surface loading."
+  ],
+  "uncertainty": "Capacity-only lower/upper: shift chip temperature by \u00b11.2 K and power by \u00b13.12 mW, inside common interpolation domain. Adverse case additionally combines support k +20%, lead k +10%, interface R x2, stage/die emissivity x2, gas G=10 uW/K, optical factor=1, resistivity +20%, modulus -30%. These are engineering scenarios, not confidence bounds or manufacturing tolerance guarantees.",
+  "property_samples_W_mK": {
+    "ss304": {
+      "90": 8.704844967285037,
+      "100": 9.223590216882469,
+      "200": 12.632695877045922,
+      "295": 15.176312048657813
+    },
+    "g10_warp": {
+      "90": 0.42141688748668665,
+      "100": 0.4477236132749276,
+      "200": 0.6741292969224632,
+      "295": 0.8547641905258662
+    }
+  }
+}

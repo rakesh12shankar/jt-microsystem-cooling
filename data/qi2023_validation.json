@@ -1,0 +1,23 @@
+{
+  "source": "Qi et al. (2023), Applied Thermal Engineering 227, 120361",
+  "doi": "10.1016/j.applthermaleng.2023.120361",
+  "method": "Manual marker-center readings of Figure 5, PDF page 5 rendered at scale 4 (2382 x 3175 pixels). Coordinates below are relative to crop [480,190,1940,780]. Linear axes. Rounded temperatures pair corresponding markers between panels; do not interpret rounding as experimental precision. Merged peak markers use text peak and approximate flow interpolation. Enlarged error-bar illustration excluded.",
+  "axes_pixels": {"capacity": {"x80":71,"x300":670,"y0":542,"y160":42}, "flow": {"x80":827,"x300":1426,"y0":542,"y8":99}},
+  "reading_allowance": {"temperature_K":0.6,"capacity_mW":1.0,"flow_mg_s":0.04,"meaning":"Manual reading allowances, not standard deviations or confidence intervals; peak flow has an additional interpolation allowance of 0.04 mg/s."},
+  "instrument_error_table1": {"temperature_K":0.2,"capacity_mW":0.12,"flow_mg_s":0.2,"high_pressure_Pa":60500,"outlet_pressure_Pa":15500},
+  "points": [
+    {"T_K":90,"Q_mW":18.2,"flow_mg_s":4.18,"capacity_pixel":[98,485],"flow_pixel":[852,310]},
+    {"T_K":95,"Q_mW":48.6,"flow_mg_s":4.35,"capacity_pixel":[113,390],"flow_pixel":[868,301]},
+    {"T_K":100,"Q_mW":63.0,"flow_mg_s":4.41,"capacity_pixel":[126,345],"flow_pixel":[881,298]},
+    {"T_K":110,"Q_mW":69.8,"flow_mg_s":4.68,"capacity_pixel":[153,324],"flow_pixel":[909,283]},
+    {"T_K":120,"Q_mW":97.0,"flow_mg_s":5.81,"capacity_pixel":[180,239],"flow_pixel":[936,220]},
+    {"T_K":130,"Q_mW":121.9,"flow_mg_s":6.93,"capacity_pixel":[207,161],"flow_pixel":[963,158]},
+    {"T_K":140,"Q_mW":142.7,"flow_mg_s":7.84,"capacity_pixel":[234,96],"flow_pixel":[990,108]},
+    {"T_K":153,"Q_mW":146.9,"flow_mg_s":7.94,"note":"Peak capacity and temperature from section 3.2; flow interpolated visually within merged peak cluster."}
+  ],
+  "author_model_diagnostics": [
+    {"T_K":100,"total_radiation_mW":26,"radiation_reading_allowance_mW":2,"warm_outlet_K":294.9,"outlet_reading_allowance_K":0.05},
+    {"T_K":153,"total_radiation_mW":24,"radiation_reading_allowance_mW":2,"warm_outlet_K":294.9,"outlet_reading_allowance_K":0.05}
+  ],
+  "diagnostic_note":"Radiation Figure 8(b), page 6, and outlet temperature Figure A2, page 9, are AUTHOR MODEL outputs, not independent measurements. Figure 8 caption states axial conduction below 2 mW. They are used only to diagnose model discrepancy. Cold branch below 100 K has documented wet-return limitations in the author's model."
+}

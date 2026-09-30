@@ -1,0 +1,413 @@
+{
+  "status": "Numerical verification passed; baseline capacity validation failed; package validation unavailable.",
+  "method": "No fitting. Conditional on measured flow. 16 input corners per temperature are a deterministic screening range, not a statistical confidence interval or guaranteed global extrema. All model assumptions held fixed in that screen.",
+  "comparisons": [
+    {
+      "T_K": 90,
+      "Q_mW": 18.2,
+      "flow_mg_s": 4.18,
+      "capacity_pixel": [
+        98,
+        485
+      ],
+      "flow_pixel": [
+        852,
+        310
+      ],
+      "predicted_mW": 14.04413409604352,
+      "error_mW": -4.15586590395648,
+      "error_percent": -22.834428043716922,
+      "input_corner_min_mW": 0.18326310648785468,
+      "input_corner_max_mW": 28.145168148396326,
+      "valid_corners": 16,
+      "invalid_corners": [],
+      "overlap_with_measurement_allowance": true,
+      "budget": {
+        "ideal_warm_enthalpy_mW": 90.13848873450955,
+        "warm_outlet_deficit_mW": 26.710940948243653,
+        "hx_radiation_mW": 36.83212581112262,
+        "cold_radiation_mW": 11.526287879099874,
+        "axial_mW": 1.0250000000000001,
+        "net_mW": 14.04413409604352,
+        "closure_residual_mW": -1.1368683772161603e-13
+      },
+      "fluid_K": 87.34045780248566,
+      "outlet_K": 288.8775753694333
+    },
+    {
+      "T_K": 95,
+      "Q_mW": 48.6,
+      "flow_mg_s": 4.35,
+      "capacity_pixel": [
+        113,
+        390
+      ],
+      "flow_pixel": [
+        868,
+        301
+      ],
+      "predicted_mW": 40.05426224236392,
+      "error_mW": -8.545737757636083,
+      "error_percent": -17.5838225465763,
+      "input_corner_min_mW": 34.551941952920814,
+      "input_corner_max_mW": 45.620548083272034,
+      "valid_corners": 16,
+      "invalid_corners": [],
+      "overlap_with_measurement_allowance": false,
+      "budget": {
+        "ideal_warm_enthalpy_mW": 93.804408132803,
+        "warm_outlet_deficit_mW": 4.581823190711901,
+        "hx_radiation_mW": 36.666354201524165,
+        "cold_radiation_mW": 11.501968498202926,
+        "axial_mW": 1.0,
+        "net_mW": 40.05426224236392,
+        "closure_residual_mW": 9.947598300641403e-14
+      },
+      "fluid_K": 89.7443769259433,
+      "outlet_K": 293.99079396202274
+    },
+    {
+      "T_K": 100,
+      "Q_mW": 63.0,
+      "flow_mg_s": 4.41,
+      "capacity_pixel": [
+        126,
+        345
+      ],
+      "flow_pixel": [
+        881,
+        298
+      ],
+      "predicted_mW": 41.8037895468185,
+      "error_mW": -21.1962104531815,
+      "error_percent": -33.64477849711349,
+      "input_corner_min_mW": 36.286349251571394,
+      "input_corner_max_mW": 47.38510590283879,
+      "valid_corners": 16,
+      "invalid_corners": [],
+      "overlap_with_measurement_allowance": false,
+      "budget": {
+        "ideal_warm_enthalpy_mW": 95.09826203808305,
+        "warm_outlet_deficit_mW": 4.522990770342415,
+        "hx_radiation_mW": 36.322991222547394,
+        "cold_radiation_mW": 11.47349049837493,
+        "axial_mW": 0.9750000000000002,
+        "net_mW": 41.8037895468185,
+        "closure_residual_mW": -1.8474111129762605e-13
+      },
+      "fluid_K": 94.57477199548063,
+      "outlet_K": 294.01730673165025
+    },
+    {
+      "T_K": 110,
+      "Q_mW": 69.8,
+      "flow_mg_s": 4.68,
+      "capacity_pixel": [
+        153,
+        324
+      ],
+      "flow_pixel": [
+        909,
+        283
+      ],
+      "predicted_mW": 48.412649763522886,
+      "error_mW": -21.38735023647711,
+      "error_percent": -30.64090291758898,
+      "input_corner_min_mW": 42.84452503164908,
+      "input_corner_max_mW": 54.04443803439373,
+      "valid_corners": 16,
+      "invalid_corners": [],
+      "overlap_with_measurement_allowance": false,
+      "budget": {
+        "ideal_warm_enthalpy_mW": 100.92060461184323,
+        "warm_outlet_deficit_mW": 4.563401597604117,
+        "hx_radiation_mW": 35.617313884631045,
+        "cold_radiation_mW": 11.40223936608518,
+        "axial_mW": 0.9250000000000004,
+        "net_mW": 48.412649763522886,
+        "closure_residual_mW": 0.0
+      },
+      "fluid_K": 103.92601108703916,
+      "outlet_K": 294.06572681385387
+    },
+    {
+      "T_K": 120,
+      "Q_mW": 97.0,
+      "flow_mg_s": 5.81,
+      "capacity_pixel": [
+        180,
+        239
+      ],
+      "flow_pixel": [
+        936,
+        220
+      ],
+      "predicted_mW": 72.63788542651189,
+      "error_mW": -24.362114573488114,
+      "error_percent": -25.11558203452383,
+      "input_corner_min_mW": 66.90512725520676,
+      "input_corner_max_mW": 78.43384611073863,
+      "valid_corners": 16,
+      "invalid_corners": [],
+      "overlap_with_measurement_allowance": false,
+      "budget": {
+        "ideal_warm_enthalpy_mW": 125.28818649461735,
+        "warm_outlet_deficit_mW": 5.464593609132532,
+        "hx_radiation_mW": 35.00204181650471,
+        "cold_radiation_mW": 11.308665642468286,
+        "axial_mW": 0.875000000000004,
+        "net_mW": 72.63788542651189,
+        "closure_residual_mW": -7.105427357601002e-14
+      },
+      "fluid_K": 111.51784489310117,
+      "outlet_K": 294.09881717323094
+    },
+    {
+      "T_K": 130,
+      "Q_mW": 121.9,
+      "flow_mg_s": 6.93,
+      "capacity_pixel": [
+        207,
+        161
+      ],
+      "flow_pixel": [
+        963,
+        158
+      ],
+      "predicted_mW": 96.81632469505489,
+      "error_mW": -25.083675304945118,
+      "error_percent": -20.577256197658013,
+      "input_corner_min_mW": 90.92047656961819,
+      "input_corner_max_mW": 102.77494151088868,
+      "valid_corners": 16,
+      "invalid_corners": [],
+      "overlap_with_measurement_allowance": false,
+      "budget": {
+        "ideal_warm_enthalpy_mW": 149.44012605984477,
+        "warm_outlet_deficit_mW": 6.264900418984852,
+        "hx_radiation_mW": 34.34536891897304,
+        "cold_radiation_mW": 11.18853202683214,
+        "axial_mW": 0.8250000000000002,
+        "net_mW": 96.81632469505489,
+        "closure_residual_mW": -1.4210854715202004e-13
+      },
+      "fluid_K": 119.11701432781126,
+      "outlet_K": 294.1338118538879
+    },
+    {
+      "T_K": 140,
+      "Q_mW": 142.7,
+      "flow_mg_s": 7.84,
+      "capacity_pixel": [
+        234,
+        96
+      ],
+      "flow_pixel": [
+        990,
+        108
+      ],
+      "predicted_mW": 116.87423765495707,
+      "error_mW": -25.825762345042918,
+      "error_percent": -18.097941377044794,
+      "input_corner_min_mW": 110.84298093437666,
+      "input_corner_max_mW": 122.96791087752327,
+      "valid_corners": 16,
+      "invalid_corners": [],
+      "overlap_with_measurement_allowance": false,
+      "budget": {
+        "ideal_warm_enthalpy_mW": 169.06357695659207,
+        "warm_outlet_deficit_mW": 6.7715022292207925,
+        "hx_radiation_mW": 33.6056043148593,
+        "cold_radiation_mW": 11.037232757554934,
+        "axial_mW": 0.7750000000000002,
+        "net_mW": 116.87423765495707,
+        "closure_residual_mW": -2.842170943040401e-14
+      },
+      "fluid_K": 127.13135295874875,
+      "outlet_K": 294.1724382609187
+    },
+    {
+      "T_K": 153,
+      "Q_mW": 146.9,
+      "flow_mg_s": 7.94,
+      "note": "Peak capacity and temperature from section 3.2; flow interpolated visually within merged peak cluster.",
+      "predicted_mW": 121.0625773584622,
+      "error_mW": -25.8374226415378,
+      "error_percent": -17.588442914593465,
+      "input_corner_min_mW": 114.18433062766901,
+      "input_corner_max_mW": 128.0135639617921,
+      "valid_corners": 16,
+      "invalid_corners": [],
+      "overlap_with_measurement_allowance": false,
+      "budget": {
+        "ideal_warm_enthalpy_mW": 171.22000013205883,
+        "warm_outlet_deficit_mW": 6.326388312048796,
+        "hx_radiation_mW": 32.33530896028226,
+        "cold_radiation_mW": 10.785725501265174,
+        "axial_mW": 0.7100000000000004,
+        "net_mW": 121.0625773584622,
+        "closure_residual_mW": 3.979039320256561e-13
+      },
+      "fluid_K": 139.74416971402718,
+      "outlet_K": 294.23657387296015
+    }
+  ],
+  "sensitivity": [
+    {
+      "T_K": 100,
+      "scenario": "baseline",
+      "predicted_mW": 41.8037895468185
+    },
+    {
+      "T_K": 100,
+      "scenario": "interface 0 K/W",
+      "predicted_mW": 42.342695680588434
+    },
+    {
+      "T_K": 100,
+      "scenario": "interface 30 K/W",
+      "predicted_mW": 42.17829613061349
+    },
+    {
+      "T_K": 100,
+      "scenario": "interface 200 K/W",
+      "predicted_mW": 41.28877873339631
+    },
+    {
+      "T_K": 100,
+      "scenario": "effectiveness 0.99",
+      "predicted_mW": 37.33596746393033
+    },
+    {
+      "T_K": 100,
+      "scenario": "effectiveness 0.9999",
+      "predicted_mW": 46.20423709762696
+    },
+    {
+      "T_K": 100,
+      "scenario": "radiation areas x0.5",
+      "predicted_mW": 65.50035689256228
+    },
+    {
+      "T_K": 100,
+      "scenario": "radiation areas x1.5",
+      "predicted_mW": 18.236638270157712
+    },
+    {
+      "T_K": 100,
+      "scenario": "low drop 0 kPa",
+      "predicted_mW": 41.8246470970059
+    },
+    {
+      "T_K": 100,
+      "scenario": "low drop 90 kPa",
+      "predicted_mW": 41.78230994960116
+    },
+    {
+      "T_K": 100,
+      "scenario": "high drop 0 kPa",
+      "predicted_mW": 41.80378954681858
+    },
+    {
+      "T_K": 100,
+      "scenario": "high drop 100 kPa",
+      "predicted_mW": 41.80378954681858
+    },
+    {
+      "T_K": 153,
+      "scenario": "baseline",
+      "predicted_mW": 121.0625773584622
+    },
+    {
+      "T_K": 153,
+      "scenario": "interface 0 K/W",
+      "predicted_mW": 123.10563341413852
+    },
+    {
+      "T_K": 153,
+      "scenario": "interface 30 K/W",
+      "predicted_mW": 122.46921765132667
+    },
+    {
+      "T_K": 153,
+      "scenario": "interface 200 K/W",
+      "predicted_mW": 119.22076893693843
+    },
+    {
+      "T_K": 153,
+      "scenario": "effectiveness 0.99",
+      "predicted_mW": 114.85447984527184
+    },
+    {
+      "T_K": 153,
+      "scenario": "effectiveness 0.9999",
+      "predicted_mW": 127.1969742864646
+    },
+    {
+      "T_K": 153,
+      "scenario": "radiation areas x0.5",
+      "predicted_mW": 142.39074229176688
+    },
+    {
+      "T_K": 153,
+      "scenario": "radiation areas x1.5",
+      "predicted_mW": 99.90150131446426
+    },
+    {
+      "T_K": 153,
+      "scenario": "low drop 0 kPa",
+      "predicted_mW": 121.07913231592823
+    },
+    {
+      "T_K": 153,
+      "scenario": "low drop 90 kPa",
+      "predicted_mW": 121.04593255297308
+    },
+    {
+      "T_K": 153,
+      "scenario": "high drop 0 kPa",
+      "predicted_mW": 121.0625773584622
+    },
+    {
+      "T_K": 153,
+      "scenario": "high drop 100 kPa",
+      "predicted_mW": 121.0625773584622
+    }
+  ],
+  "diagnosis": [
+    {
+      "T_K": 100,
+      "total_radiation_mW": 26,
+      "radiation_reading_allowance_mW": 2,
+      "warm_outlet_K": 294.9,
+      "outlet_reading_allowance_K": 0.05,
+      "measured_mW": 63.0,
+      "baseline_total_radiation_mW": 47.79648172092232,
+      "author_output_energy_balance_range_mW": [
+        66.63800069392389,
+        68.63800069392389
+      ],
+      "qualification": "Conditional Eq. 5 reconstruction using author-model radiation/outlet, prescribed measured flow, and 0-2 mW axial conduction; not a corrected predictive model or independent validation."
+    },
+    {
+      "T_K": 153,
+      "total_radiation_mW": 24,
+      "radiation_reading_allowance_mW": 2,
+      "warm_outlet_K": 294.9,
+      "outlet_reading_allowance_K": 0.05,
+      "measured_mW": 146.9,
+      "baseline_total_radiation_mW": 43.12103446154744,
+      "author_output_energy_balance_range_mW": [
+        144.3913209772689,
+        146.3913209772689
+      ],
+      "qualification": "Conditional Eq. 5 reconstruction using author-model radiation/outlet, prescribed measured flow, and 0-2 mW axial conduction; not a corrected predictive model or independent validation."
+    }
+  ],
+  "metrics": {
+    "MAE_mW": 19.54926740203314,
+    "RMSE_mW": 21.07796463638928,
+    "screen_overlap_count": 1,
+    "points": 8
+  }
+}

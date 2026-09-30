@@ -1,0 +1,237 @@
+{
+  "model": "v0.1 empirical reference-platform + incremental package",
+  "baseline_inputs": {
+    "ambient_K": 295,
+    "target_K": 100,
+    "device_power_W": 0.01,
+    "interface_K_per_W": 50,
+    "support_W_per_K": 5e-05,
+    "lead_W_per_K": 2e-05,
+    "stage_area_m2": 0.0001,
+    "stage_emissivity": 0.05,
+    "device_area_m2": 9e-06,
+    "device_emissivity": 0.2,
+    "gas_W_per_K": 0,
+    "optical_W": 0
+  },
+  "scenarios": {
+    "baseline": {
+      "status": "equilibrium",
+      "platform_K": 91.4717901143681,
+      "detector_K": 92.21285762229623,
+      "capacity_W": 0.02712509870908225,
+      "loads_W": {
+        "device": 0.01,
+        "leads_to_device": 0.004055742847554076,
+        "radiation_to_device": 0.000765607311008289,
+        "optical_to_device": 0,
+        "supports_to_platform": 0.010176410494281595,
+        "radiation_to_platform": 0.0021273380562382553,
+        "residual_gas_to_platform": 0.0
+      },
+      "energy_residual_W": 3.469446951953614e-17,
+      "interface_residual_K": 3.774758283725532e-15,
+      "meets_target": true,
+      "maximum_device_power_W": 0.04008882691981411
+    },
+    "lower_support_conductance": {
+      "status": "equilibrium",
+      "platform_K": 90.49346918503208,
+      "detector_K": 91.2355294175478,
+      "capacity_W": 0.021059508947198918,
+      "loads_W": {
+        "device": 0.01,
+        "leads_to_device": 0.004075289411649044,
+        "radiation_to_device": 0.0007659152386652158,
+        "optical_to_device": 0,
+        "supports_to_platform": 0.004090130616299359,
+        "radiation_to_platform": 0.0021281736805853165,
+        "residual_gas_to_platform": 0.0
+      },
+      "energy_residual_W": -1.734723475976807e-17,
+      "interface_residual_K": -9.992007221626409e-16,
+      "meets_target": true,
+      "maximum_device_power_W": 0.045274500675416836
+    },
+    "higher_support_conductance": {
+      "status": "equilibrium",
+      "platform_K": 97.60602596652376,
+      "detector_K": 98.34085717099035,
+      "capacity_W": 0.05629687270626653,
+      "loads_W": {
+        "device": 0.01,
+        "leads_to_device": 0.003933182856580193,
+        "radiation_to_device": 0.0007634412327514875,
+        "optical_to_device": 0,
+        "supports_to_platform": 0.03947879480669525,
+        "radiation_to_platform": 0.002121453810241066,
+        "residual_gas_to_platform": 0.0
+      },
+      "energy_residual_W": -1.4710455076283324e-15,
+      "interface_residual_K": 3.3306690738754696e-15,
+      "meets_target": true,
+      "maximum_device_power_W": 0.014363394800143542
+    },
+    "lower_interface_resistance": {
+      "status": "equilibrium",
+      "platform_K": 91.47371042321616,
+      "detector_K": 91.62204396077287,
+      "capacity_W": 0.027137004623940204,
+      "loads_W": {
+        "device": 0.01,
+        "leads_to_device": 0.004067559120784543,
+        "radiation_to_device": 0.0007657946348955869,
+        "optical_to_device": 0,
+        "supports_to_platform": 0.010176314478839191,
+        "radiation_to_platform": 0.0021273363894208515,
+        "residual_gas_to_platform": 0.0
+      },
+      "energy_residual_W": 3.122502256758253e-17,
+      "interface_residual_K": -9.18709552877317e-14,
+      "meets_target": true,
+      "maximum_device_power_W": 0.04505098280154578
+    },
+    "higher_interface_resistance": {
+      "status": "equilibrium",
+      "platform_K": 91.46461138551919,
+      "detector_K": 94.41990676013712,
+      "capacity_W": 0.027080590590218986,
+      "loads_W": {
+        "device": 0.01,
+        "leads_to_device": 0.004011601864797258,
+        "radiation_to_device": 0.0007648750082923854,
+        "optical_to_device": 0,
+        "supports_to_platform": 0.01017676943072404,
+        "radiation_to_platform": 0.002127344286405303,
+        "residual_gas_to_platform": 0.0
+      },
+      "energy_residual_W": 0.0,
+      "interface_residual_K": 3.9968028886505635e-15,
+      "meets_target": true,
+      "maximum_device_power_W": 0.02561495135109558
+    },
+    "higher_stage_emissivity": {
+      "status": "equilibrium",
+      "platform_K": 93.16670118618894,
+      "detector_K": 93.90604764689893,
+      "capacity_W": 0.03763354735437146,
+      "loads_W": {
+        "device": 0.01,
+        "leads_to_device": 0.004021879047062022,
+        "radiation_to_device": 0.0007650501671377303,
+        "optical_to_device": 0,
+        "supports_to_platform": 0.010091664940690552,
+        "radiation_to_platform": 0.012754953199481837,
+        "residual_gas_to_platform": 0.0
+      },
+      "energy_residual_W": -6.800116025829084e-16,
+      "interface_residual_K": -6.106226635438361e-15,
+      "meets_target": true,
+      "maximum_device_power_W": 0.030807889472860745
+    },
+    "extra_5mW_optical_load": {
+      "status": "equilibrium",
+      "platform_K": 92.2682782229359,
+      "detector_K": 93.2582832851745,
+      "capacity_W": 0.032063324982202615,
+      "loads_W": {
+        "device": 0.01,
+        "leads_to_device": 0.00403483433429651,
+        "radiation_to_device": 0.0007652669104754376,
+        "optical_to_device": 0.005,
+        "supports_to_platform": 0.010136586088853204,
+        "radiation_to_platform": 0.002126637648681624,
+        "residual_gas_to_platform": 0.0
+      },
+      "energy_residual_W": -1.041597363915514e-13,
+      "interface_residual_K": -2.55351295663786e-15,
+      "meets_target": true,
+      "maximum_device_power_W": 0.03508882691975714
+    },
+    "extra_gas_conductance_20uW_per_K": {
+      "status": "equilibrium",
+      "platform_K": 92.11881724385056,
+      "detector_K": 92.8592279262421,
+      "capacity_W": 0.03113666691187346,
+      "loads_W": {
+        "device": 0.01,
+        "leads_to_device": 0.0040428154414751585,
+        "radiation_to_device": 0.0007653982063557229,
+        "optical_to_device": 0,
+        "supports_to_platform": 0.010144059137807472,
+        "radiation_to_platform": 0.00212677047111215,
+        "residual_gas_to_platform": 0.004057623655122989
+      },
+      "energy_residual_W": -3.469446951953614e-17,
+      "interface_residual_K": -2.7755575615628914e-15,
+      "meets_target": true,
+      "maximum_device_power_W": 0.03663926998131232
+    }
+  },
+  "capacity_scale_sensitivity": {
+    "0.9": {
+      "status": "equilibrium",
+      "platform_K": 91.95178038112103,
+      "detector_K": 92.69236065091881,
+      "capacity_W": 0.027090934526655324,
+      "loads_W": {
+        "device": 0.01,
+        "leads_to_device": 0.004046152786981624,
+        "radiation_to_device": 0.0007654526089740894,
+        "optical_to_device": 0,
+        "supports_to_platform": 0.01015241098094395,
+        "radiation_to_platform": 0.0021269181497556525,
+        "residual_gas_to_platform": 0.0
+      },
+      "energy_residual_W": 6.938893903907228e-18,
+      "interface_residual_K": 3.3306690738754696e-15,
+      "meets_target": true,
+      "maximum_device_power_W": 0.0350616136846002
+    },
+    "1": {
+      "status": "equilibrium",
+      "platform_K": 91.4717901143681,
+      "detector_K": 92.21285762229623,
+      "capacity_W": 0.02712509870908225,
+      "loads_W": {
+        "device": 0.01,
+        "leads_to_device": 0.004055742847554076,
+        "radiation_to_device": 0.000765607311008289,
+        "optical_to_device": 0,
+        "supports_to_platform": 0.010176410494281595,
+        "radiation_to_platform": 0.0021273380562382553,
+        "residual_gas_to_platform": 0.0
+      },
+      "energy_residual_W": 3.469446951953614e-17,
+      "interface_residual_K": 3.774758283725532e-15,
+      "meets_target": true,
+      "maximum_device_power_W": 0.04008882691981411
+    },
+    "1.1": {
+      "status": "equilibrium",
+      "platform_K": 91.07816844069059,
+      "detector_K": 91.81963542467105,
+      "capacity_W": 0.027153108765509828,
+      "loads_W": {
+        "device": 0.01,
+        "leads_to_device": 0.00406360729150658,
+        "radiation_to_device": 0.0007657323881025121,
+        "optical_to_device": 0,
+        "supports_to_platform": 0.01019609157796547,
+        "radiation_to_platform": 0.0021276775079352712,
+        "residual_gas_to_platform": 0.0
+      },
+      "energy_residual_W": -3.469446951953614e-18,
+      "interface_residual_K": 4.218847493575595e-15,
+      "meets_target": true,
+      "maximum_device_power_W": 0.044994333680805194
+    }
+  },
+  "limitations": [
+    "Not an independently validated JT cycle model",
+    "Figure points manually approximated; no raw experimental dataset",
+    "Fixed 295 K ambient, 11.1/0.24 MPa and reference insulation",
+    "Only 88.5-153 K increasing branch; startup not predicted",
+    "Added package conductances, areas and interface resistance are assumed"
+  ]
+}

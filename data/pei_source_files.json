@@ -1,0 +1,23 @@
+[
+  {
+    "doi": "10.1063/5.0214551",
+    "filename": "085118_1_5.0214551.pdf",
+    "sha256": "e6dc6c8b27eff5abd8d0014408f6e3b24a227976266f9bcc5ca9e7ccf8a5ca83",
+    "read_date": "2026-09-30",
+    "source": "User-supplied full main article; supplementary information not included"
+  },
+  {
+    "doi": "10.1016/j.cryogenics.2026.104445",
+    "filename": "1-s2.0-S0011227526001700-main.pdf",
+    "sha256": "6766951cc2ccd5fe02972065e4c4eee6ca9c5447203267c8fc857bed838c51ed",
+    "read_date": "2026-09-30",
+    "source": "User-supplied full main article; supplementary information not included"
+  },
+  {
+    "doi": "10.1016/j.cryogenics.2026.104445",
+    "filename": "1-s2.0-S0011227526001700-mmc1.pdf",
+    "sha256": "f807360bd395f0dd7956f5f0aba7b9853aa286b81bfe0a745176a43058b6dcfc",
+    "read_date": "2026-09-30",
+    "source": "User-supplied supplementary information S1-S3; equations and tables visually checked"
+  }
+]

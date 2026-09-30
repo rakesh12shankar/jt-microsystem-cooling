@@ -1,0 +1,30 @@
+{
+  "common": {
+    "ambient_K":295,"target_K":100,"device_power_W":0.01,
+    "support_count":4,"support_width_m":0.0003,
+    "lead_count":8,"lead_diameter_m":0.000025,"lead_material":"ss304",
+    "lead_current_A":0.0001,"lead_resistivity_ohm_m":0.00000072,
+    "max_lead_resistance_ohm":20,
+    "stage_area_m2":0.0001,"stage_emissivity":0.05,
+    "die_area_m2":0.000009,"die_emissivity":0.2,
+    "aperture_diameter_m":0.001,"optical_gray_factor":0.5,
+    "gas_conductance_W_K":0.0000005,
+    "payload_mass_kg":0.000005,"acceleration_m_s2":98.0665,
+    "max_deflection_m":0.00001,"screen_stress_limit_Pa":50000000
+  },
+  "architectures": [
+    {"name":"A: steel supports","support_material":"ss304","support_length_m":0.002,"support_thickness_m":0.0001,"young_modulus_Pa":190000000000,"lead_length_m":0.01,"interface_K_W":50},
+    {"name":"B: G10 compact","support_material":"g10_warp","support_length_m":0.002,"support_thickness_m":0.0001,"young_modulus_Pa":20000000000,"lead_length_m":0.01,"interface_K_W":50},
+    {"name":"C: G10 long thin","support_material":"g10_warp","support_length_m":0.003,"support_thickness_m":0.0001,"young_modulus_Pa":20000000000,"lead_length_m":0.02,"interface_K_W":20},
+    {"name":"D: G10 long reinforced","support_material":"g10_warp","support_length_m":0.003,"support_thickness_m":0.00015,"young_modulus_Pa":20000000000,"lead_length_m":0.01,"interface_K_W":20}
+  ],
+  "assumptions": [
+    "All geometry, payload, acceleration, interface, optical, vacuum and acceptance limits are project design assumptions, not dimensions demonstrated in Qi or Tong.",
+    "Young modulus values are screening assumptions; G10 modulus is swept ±30%. Neither is an allowable or a temperature-dependent mechanical model.",
+    "Lead resistivity is an assumed constant swept ±20%, not a sourced cryogenic electrical fit. Stainless leads represent a low-current thermal candidate; bonding, signal integrity and detector pin count require validation.",
+    "Conservative electrical heating: all I^2R from eight leads deposited at detector; actual partition is unresolved.",
+    "Four equal-load cantilevers under out-of-plane acceleration are a preliminary screen; no buckling, resonances, joint failure, cooldown mismatch, in-plane restraint or vacuum qualification is predicted.",
+    "Extra gas conductance is an effective parameter; no chamber-pressure specification is inferred. Optical gray factor combines transmission, absorptance and view factor; spectral detector loading is not resolved.",
+    "All paths are additional to the measured reference chip/cooler assembly. Aperture area is removed from opaque die radiation to avoid duplicate surface loading."
+  ]
+}

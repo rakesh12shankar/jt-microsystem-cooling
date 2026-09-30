@@ -1,0 +1,138 @@
+{
+  "baseline": {
+    "status": "equilibrium",
+    "platform_K": 94.99154478489973,
+    "die_K": 95.45987926890166,
+    "interface_K_W": 25.611111111111114,
+    "loads_W": {
+      "device": 0.01,
+      "leads": 0.007280500627139297,
+      "wire_joule": 6.623290252548739e-06,
+      "supports": 0.02631299020262734,
+      "die_radiation": 0.0009826523179432653,
+      "stage_radiation": 0.0042482042512511494,
+      "optical": 1.6602749555973924e-05,
+      "gas": 0.00010000422760755013
+    },
+    "energy_residual_W": 1.2073675392798577e-15
+  },
+  "max_power_W": 0.022369980296758997,
+  "screens": {
+    "deflection_um": 4.4129925,
+    "stress_MPa": 6.6194887499999995,
+    "wire_resistance_ohm": {
+      "signal": 11.73417564427926,
+      "power_return": 1.303797293808807
+    },
+    "pass": true,
+    "cold_support_envelope_mm": 13.5
+  },
+  "thermal_mesh": [
+    {
+      "level": 2,
+      "nodes": 572,
+      "elements": 2160,
+      "max_die_K": 95.62986502287744,
+      "mean_die_K": 95.45987926890166,
+      "die_nonuniformity_K": 0.2084001743191327,
+      "energy_residual_W": -2.0816681711721685e-17,
+      "uniform_analytic_R_K_W": 25.61111111111111
+    },
+    {
+      "level": 4,
+      "nodes": 3150,
+      "elements": 14400,
+      "max_die_K": 95.65126180525331,
+      "mean_die_K": 95.45987926890166,
+      "die_nonuniformity_K": 0.22953912489000822,
+      "energy_residual_W": 1.3877787807814457e-17,
+      "uniform_analytic_R_K_W": 25.61111111111111
+    },
+    {
+      "level": 8,
+      "nodes": 22099,
+      "elements": 115200,
+      "max_die_K": 95.65768980581399,
+      "mean_die_K": 95.45987926890177,
+      "die_nonuniformity_K": 0.23585083152162578,
+      "energy_residual_W": -4.4027281820291364e-15,
+      "uniform_analytic_R_K_W": 25.61111111111111
+    }
+  ],
+  "mechanical_mesh": [
+    {
+      "level": 2,
+      "nodes": 150,
+      "elements": 240,
+      "warpage_um": 2.282196168356782,
+      "central_die_von_mises_MPa": 15.357855953109977,
+      "peak_von_mises_MPa": 25.06707147669747,
+      "free_residual_N": 1.1368683772161603e-12
+    },
+    {
+      "level": 4,
+      "nodes": 539,
+      "elements": 960,
+      "warpage_um": 2.9620098550967793,
+      "central_die_von_mises_MPa": 14.787147728552334,
+      "peak_von_mises_MPa": 29.166189352926175,
+      "free_residual_N": 2.5579538487363607e-12
+    },
+    {
+      "level": 8,
+      "nodes": 2037,
+      "elements": 3840,
+      "warpage_um": 3.206121037565168,
+      "central_die_von_mises_MPa": 14.576366359022115,
+      "peak_von_mises_MPa": 30.665008231706572,
+      "free_residual_N": 4.490630090003833e-12
+    },
+    {
+      "level": 16,
+      "nodes": 7913,
+      "elements": 15360,
+      "warpage_um": 3.2733681783670474,
+      "central_die_von_mises_MPa": 14.524016463515363,
+      "peak_von_mises_MPa": 31.12155051399694,
+      "free_residual_N": 7.787548383930698e-12
+    },
+    {
+      "level": 32,
+      "nodes": 31185,
+      "elements": 61440,
+      "warpage_um": 3.2894418121287092,
+      "central_die_von_mises_MPa": 14.51351653978087,
+      "peak_von_mises_MPa": 31.25873326976824,
+      "free_residual_N": 8.29958324288782e-12
+    }
+  ],
+  "property_sensitivity": [
+    {
+      "scenario": "nominal",
+      "max_die_K": 95.65126180525331,
+      "range_K": 0.22953912489000822
+    },
+    {
+      "scenario": "contact resistivity x0.5",
+      "max_die_K": 95.49340207884458,
+      "range_K": 0.2199934053251995
+    },
+    {
+      "scenario": "contact resistivity x2",
+      "max_die_K": 95.95998280756568,
+      "range_K": 0.23829815184099246
+    },
+    {
+      "scenario": "die k x0.5",
+      "max_die_K": 95.82826391079733,
+      "range_K": 0.42316530661670443
+    },
+    {
+      "scenario": "die k x2",
+      "max_die_K": 95.55457686710487,
+      "range_K": 0.120347453887304
+    }
+  ],
+  "thermal_scope": "3D tetrahedral stack, constant effective k, full-area bond/contact, isothermal bottom and adiabatic sides. Network supplies bottom temperature and heat budget; mean is identical to 1D stack in this geometry. Local top source is 5 mW Gaussian sigma 0.35 mm plus uniform remainder.",
+  "mechanical_scope": "2D plane-stress tri-elements, constant effective E/nu/CTE, perfect bonded interfaces, left pin/right roller, uniform cooldown. No adhesive plasticity, creep, debonding or package restraint. Central die stress excludes outer 1 mm on both ends."
+}

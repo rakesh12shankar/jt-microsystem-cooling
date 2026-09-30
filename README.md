@@ -114,5 +114,4 @@ See [upload instructions](docs/github_upload.md) for repository setup and bundle
 The scientific calculations use `requirements.txt`. To rebuild the Word report from
 the saved results, install `requirements-report.txt` and run `python build_word_report.py`.
 Open the resulting DOCX in Word and update the table of contents and fields before exporting.
-The checked-in report already has its contents and page numbers updated.
-
+The Word report is currently kept locally and is excluded from this public upload.

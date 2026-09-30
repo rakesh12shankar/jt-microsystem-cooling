@@ -1,0 +1,240 @@
+{
+  "designs_evaluated": 1134,
+  "adverse_screen_pass_count": 372,
+  "adverse_10mW_feasible_count": 7,
+  "selected": {
+    "support_length_mm": 3.0,
+    "support_thickness_mm": 0.3500000000000001,
+    "support_width_mm": 0.3,
+    "lead_length_mm": 8.0,
+    "bond_um": 25.0,
+    "envelope_mm": 15.5,
+    "nominal_screens_pass": true,
+    "adverse_screens_pass": true,
+    "nominal_peak_power_mW": 28.526377855408033,
+    "adverse_peak_power_mW": 11.457156640172357,
+    "adverse_deflection_um": 6.61673177842565
+  },
+  "selected_inputs": {
+    "revision": "array-v1",
+    "application": "Literature-format 320 x 256 infrared focal-plane array; thermal surrogate, not a specified commercial detector",
+    "source_doi": "10.1016/j.cryogenics.2024.103929",
+    "pixels": [
+      320,
+      256
+    ],
+    "pitch_m": 1.5e-05,
+    "f_number": 1.2,
+    "active_dimensions_m": [
+      0.0048,
+      0.00384
+    ],
+    "die_dimensions_m": [
+      0.006,
+      0.005,
+      0.0003
+    ],
+    "adapter_dimensions_m": [
+      0.006,
+      0.005,
+      0.0005
+    ],
+    "reference_platform_dimensions_m": [
+      0.0095,
+      0.0095,
+      0.0005
+    ],
+    "enclosure_dimensions_m": [
+      0.07,
+      0.025,
+      0.015
+    ],
+    "ambient_K": 295,
+    "target_K": 100,
+    "device_power_W": 0.01,
+    "support_material": "g10_warp",
+    "support_count": 4,
+    "support_width_m": 0.0003,
+    "support_length_m": 0.003,
+    "support_thickness_m": 0.0003500000000000001,
+    "young_modulus_Pa": 20000000000,
+    "payload_mass_kg": 0.00045,
+    "acceleration_m_s2": 98.0665,
+    "max_deflection_m": 1e-05,
+    "screen_stress_limit_Pa": 50000000,
+    "lead_length_m": 0.008,
+    "lead_material": "ss304",
+    "lead_resistivity_ohm_m": 7.2e-07,
+    "lead_groups": [
+      {
+        "name": "signal",
+        "count": 12,
+        "diameter_m": 2.5e-05,
+        "current_A": 0.0001,
+        "max_resistance_ohm": 20
+      },
+      {
+        "name": "power_return",
+        "count": 4,
+        "diameter_m": 7.5e-05,
+        "current_A": 0.001,
+        "max_resistance_ohm": 2
+      }
+    ],
+    "bond_thickness_m": 2.5e-05,
+    "bond_conductivity_W_mK": 0.2,
+    "contact_resistivity_m2K_W": 0.0005,
+    "die_conductivity_W_mK": 20,
+    "adapter_conductivity_W_mK": 150,
+    "stage_area_m2": 0.0002,
+    "stage_emissivity": 0.05,
+    "die_emissivity": 0.2,
+    "optical_band_um": [
+      3,
+      5
+    ],
+    "in_band_transmission": 0.7,
+    "out_band_transmission": 0.01,
+    "detector_absorptance": 0.8,
+    "gas_conductance_W_K": 5e-07,
+    "thermal_capacitance_die_J_K": 0.008,
+    "thermal_capacitance_platform_J_K": 0.1,
+    "mechanical_layers": [
+      {
+        "name": "silicon adapter surrogate",
+        "thickness_m": 0.0005,
+        "E_Pa": 130000000000,
+        "nu": 0.28,
+        "alpha_per_K": 2.6e-06
+      },
+      {
+        "name": "adhesive surrogate",
+        "thickness_m": 2.5e-05,
+        "E_Pa": 500000000,
+        "nu": 0.35,
+        "alpha_per_K": 3e-05
+      },
+      {
+        "name": "hybrid die surrogate",
+        "thickness_m": 0.0003,
+        "E_Pa": 50000000000,
+        "nu": 0.3,
+        "alpha_per_K": 6e-06
+      }
+    ],
+    "sourced_fields": [
+      "pixels",
+      "pitch_m",
+      "f_number",
+      "reference_platform_dimensions_m"
+    ],
+    "derived_fields": [
+      "active_dimensions_m"
+    ],
+    "assumed_fields_note": "All remaining quantities are design or effective-property assumptions. Contact resistivity and bond conductivity represent an unqualified adhesive system, not a commercial product. Constant moduli, CTE and heat capacities are screening values; cryogenic measurements are required. The 450 mg mechanical payload includes an allowance for reference silicon, cold glass region, added adapter/die and shield. It supersedes the inadequate 5 mg placeholder. The 70 mm enclosure accommodates the 60 mm Qi cooler; Tong's 26 mm axial package is not transferred to this geometry."
+  },
+  "pareto": [
+    {
+      "support_length_mm": 2.0,
+      "support_thickness_mm": 0.25000000000000006,
+      "support_width_mm": 0.3,
+      "lead_length_mm": 8.0,
+      "bond_um": 25.0,
+      "envelope_mm": 13.5,
+      "nominal_screens_pass": true,
+      "adverse_screens_pass": true,
+      "nominal_peak_power_mW": 27.364126063556206,
+      "adverse_peak_power_mW": 10.12520527695977,
+      "adverse_deflection_um": 5.379647999999996
+    },
+    {
+      "support_length_mm": 2.5,
+      "support_thickness_mm": 0.30000000000000004,
+      "support_width_mm": 0.3,
+      "lead_length_mm": 8.0,
+      "bond_um": 25.0,
+      "envelope_mm": 14.499999999999998,
+      "nominal_screens_pass": true,
+      "adverse_screens_pass": true,
+      "nominal_peak_power_mW": 28.061431593767136,
+      "adverse_peak_power_mW": 10.924290477160453,
+      "adverse_deflection_um": 6.080512152777777
+    },
+    {
+      "support_length_mm": 3.0,
+      "support_thickness_mm": 0.3500000000000001,
+      "support_width_mm": 0.3,
+      "lead_length_mm": 8.0,
+      "bond_um": 25.0,
+      "envelope_mm": 15.5,
+      "nominal_screens_pass": true,
+      "adverse_screens_pass": true,
+      "nominal_peak_power_mW": 28.526377855408033,
+      "adverse_peak_power_mW": 11.457156640172357,
+      "adverse_deflection_um": 6.61673177842565
+    }
+  ],
+  "FE_beta_K_W": [
+    {
+      "bond_um": 25.0,
+      "condition": "nominal",
+      "beta": 39.05068835691699
+    },
+    {
+      "bond_um": 25.0,
+      "condition": "adverse",
+      "beta": 40.49038869299907
+    },
+    {
+      "bond_um": 50.0,
+      "condition": "nominal",
+      "beta": 39.56210738244388
+    },
+    {
+      "bond_um": 50.0,
+      "condition": "adverse",
+      "beta": 40.683291013668786
+    },
+    {
+      "bond_um": 100.0,
+      "condition": "nominal",
+      "beta": 40.23517268376199
+    },
+    {
+      "bond_um": 100.0,
+      "condition": "adverse",
+      "beta": 40.97527585060483
+    }
+  ],
+  "boundary_checks": [
+    {
+      "condition": "nominal",
+      "power_W": 0.02852637785540803,
+      "FE_peak_K": 99.99999999992488,
+      "network_mean_K": 99.44301265413316,
+      "balance_W": 2.0122792321330962e-16
+    },
+    {
+      "condition": "adverse",
+      "power_W": 0.011457156640172357,
+      "FE_peak_K": 99.99999999996821,
+      "network_mean_K": 99.7680476371294,
+      "balance_W": -2.983724378680108e-16
+    }
+  ],
+  "selected_bond_mechanical_mesh": [
+    {
+      "level": 16,
+      "warpage_um": 3.689730065863202,
+      "central_die_stress_MPa": 16.82117197649515,
+      "peak_stress_MPa": 34.80832792586116
+    },
+    {
+      "level": 32,
+      "warpage_um": 3.7076527910953794,
+      "central_die_stress_MPa": 16.8025502569383,
+      "peak_stress_MPa": 34.95128694036403
+    }
+  ],
+  "status": "Best within enumerated assumed design grid; not a continuous global optimum or a qualified hardware design."
+}

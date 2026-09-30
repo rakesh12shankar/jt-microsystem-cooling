@@ -1,0 +1,50 @@
+{
+  "doi": "10.1016/j.cryogenics.2026.104445",
+  "source_locators": "Main PDF p3 Sec2.1; p4 Sec3.1; p5 Sec3.2/Fig6",
+  "assumptions": "Isothermal inventory, constant flow; 300 K nominal is assumed, not reported. 290-310 K is a sensitivity range, not a confidence interval. Startup and purge excluded.",
+  "reported_average_interval_approx_min": 75,
+  "reported_inventory_approx_g_model_estimate": 95,
+  "main_flow_kg_s": 2.1e-05,
+  "buffer_screen_flow_kg_s": 2.5e-05,
+  "temperature_scenarios": [
+    {
+      "assumed_gas_temperature_K": 290,
+      "usable_main_g": 98.7047611930456,
+      "main_runtime_min": 78.3371120579727,
+      "buffer_runtime_s": 92.32955548202818
+    },
+    {
+      "assumed_gas_temperature_K": 295,
+      "usable_main_g": 96.88938203781593,
+      "main_runtime_min": 76.89633495064757,
+      "buffer_runtime_s": 90.3060831872665
+    },
+    {
+      "assumed_gas_temperature_K": 300,
+      "usable_main_g": 95.14377512279856,
+      "main_runtime_min": 75.51093263714172,
+      "buffer_runtime_s": 88.38692197051637
+    },
+    {
+      "assumed_gas_temperature_K": 305,
+      "usable_main_g": 93.46462217214597,
+      "main_runtime_min": 74.17827156519522,
+      "buffer_runtime_s": 86.56346953822634
+    },
+    {
+      "assumed_gas_temperature_K": 310,
+      "usable_main_g": 91.84869103887469,
+      "main_runtime_min": 72.89578653878944,
+      "buffer_runtime_s": 84.82808059713898
+    }
+  ],
+  "nominal_runtime_difference_percent": 0.6812435161889674,
+  "heat_budget_mW": {
+    "reported_estimated_gross": 234,
+    "reported_estimated_parasitic": 161,
+    "reported_estimated_exhaust_loss": 68,
+    "reconstructed_net": 5,
+    "measured_net_at_130K": 5.3
+  },
+  "decision": "Conditional consistency with independently published gas-runtime observation. Heat-budget arithmetic is not independent prediction. Thermal package, passive transient and 100 K capacity remain unvalidated by these papers."
+}
